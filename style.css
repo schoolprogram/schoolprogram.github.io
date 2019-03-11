@@ -1,0 +1,27 @@
+table, th, td {
+  border-collapse: collapse;
+}
+th, td {
+  width: 100px;
+  height: 70px;
+}
+#calculateText {
+  text-align: center;
+}
+#calculate {
+  background-color: #4286f4;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+}
+
+#calculate:hover {
+  background-color: #0e65f1; /* Green */
+  color: white;
+}
