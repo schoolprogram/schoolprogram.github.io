@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Grading Rubric</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <script src="script.js"></script>
+    <table style="width:100%">
+      <tr>
+        <th></th>
+        <th>5</th>
+        <th>4</th>
+        <th>3</th> 
+        <th>2</th>
+        <th>1</th>
+      </tr>
+      <tr>
+        <td style="text-align: center; vertical-align: middle;">Thesis</td>
+        <td style="text-align: center; vertical-align: middle;">Has a sophisticated thesis and is purposeful; thoroughly answers all parts of the prompt<br><input type="checkbox" id="5x1"></input></td> 
+        <td style="text-align: center; vertical-align: middle;">Has a strong thesis with a clear purpose; answers all parts of the prompt<br><input type="checkbox" id="4x1"></input></td>
+        <td style="text-align: center; vertical-align: middle;">Has a clear thesis statement and purpose; answers all parts of the prompt<br><input type="checkbox" id="3x1"></input></td>
+        <td style="text-align: center; vertical-align: middle;">Purpose inconsistently communicated; may not answer all parts of the prompt<br><input type="checkbox" id="2x1"></input></td>
+        <td style="text-align: center; vertical-align: middle;">No central purpose; off topic of prompt<br><input type="checkbox" id="1x1"></input></td>
+      </tr>
+      <tr>
+        <td style="text-align: center; vertical-align: middle;">Organization</td>
+        <td style="text-align: center; vertical-align: middle;">Organization of essay and paragraphs is effective (hook, introduction, body of information, and conclusion, or topic sentence, examples, and commentary)<br><input type="checkbox" id="5x2"></input></td> 
+        <td style="text-align: center; vertical-align: middle;">Organization of essay and paragraphs is effective (hook, introduction, body of information, and conclusion, or topic sentence, examples, and commentary)<br><input type="checkbox" id="4x2"></input></td>
+        <td style="text-align: center; vertical-align: middle;">Organization of essay and paragraphs is adequate (introduction, body of information, and conclusion, or topic sentence, examples, and commentary)<br><input type="checkbox" id="3x2"></input></td>
+        <td style="text-align: center; vertical-align: middle;">May be lacking clear thesis statement, and/or conclusion; may have paragraphs without topic sentences and/or concluding sentences<br><input type="checkbox" id="2x2"></input></td>
+        <td style="text-align: center; vertical-align: middle;">Brief and unorganized<br><input type="checkbox" id="1x2"></input></td>
+      </tr>
+      <tr>
+        <td style="text-align: center; vertical-align: middle;">Evidence</td>
+        <td style="text-align: center; vertical-align: middle;">Ideas are complex and well developed with supporting textual evidence in the form of quotations, description and paraphrasing and clear context<br><input type="checkbox" id="5x3"></input></td> 
+        <td style="text-align: center; vertical-align: middle;">Body has a range of ideas and detail with supporting textual evidence in the form of quotations, description, and paraphrasing and clear context<br><input type="checkbox" id="4x3"></input></td>
+        <td style="text-align: center; vertical-align: middle;">May give few examples and details with quotations, description, and paraphrasing with ample context as supporting textual evidence in the body<br><input type="checkbox" id="3x3"></input></td>
+        <td style="text-align: center; vertical-align: middle;">Partially developed main ideas which may lack supporting textual evidence or context<br><input type="checkbox" id="2x3"></input></td>
+        <td style="text-align: center; vertical-align: middle;">Lacks adequate or clear evidence<br><input type="checkbox" id="1x3"></input></td>
+      </tr>
+      <tr>
+        <td style="text-align: center; vertical-align: middle;">Word Choice</td>
+        <td style="text-align: center; vertical-align: middle;">Sophisticated use of vocabulary and transitions<br><input type="checkbox" id="5x4"></input></td> 
+        <td style="text-align: center; vertical-align: middle;">Strong use of vocabulary and transitions<br><input type="checkbox" id="4x4"></input></td>
+        <td style="text-align: center; vertical-align: middle;">Average vocabulary and transitions that may be formulaic<br><input type="checkbox" id="3x4"></input></td>
+        <td style="text-align: center; vertical-align: middle;">Sometimes uses inappropriate phrasing, vocabulary and sentence structure<br><input type="checkbox" id="2x4"></input></td> 
+        <td style="text-align: center; vertical-align: middle;">Informal language may be used<br><input type="checkbox" id="1x4"></input></td> 
+      </tr>
+      <tr>
+        <td style="text-align: center; vertical-align: middle;">MUGS</td>
+        <td style="text-align: center; vertical-align: middle;">Mastery of spelling and mechanics: grammar, capitalization, punctuation beyond expectations for 7th/8th grade students<br><input type="checkbox" id="5x5"></input></td>
+        <td style="text-align: center; vertical-align: middle;">Mastery of 7th/8th grade level spelling and mechanics: grammar, capitalization, punctuation<br><input type="checkbox" id="4x5"></input></td>
+        <td style="text-align: center; vertical-align: middle;">Generally correct use of spelling and mechanics; errors may occur but do not distract from meaning<br><input type="checkbox" id="3x5"></input></td>
+        <td style="text-align: center; vertical-align: middle;">Makes noticeable errors in mechanics or spelling that are inappropriate for 7th/8th grade students<br><input type="checkbox" id="2x5"></input></td>
+        <td style="text-align: center; vertical-align: middle;">Errors in grammar, punctuation, and spelling are frequent and may cause confusion<br><input type="checkbox" id="1x5"></input></td>
+      </tr>
+    </table>
+    <p id="calculateText" onclick="calculate()"><button id="calculate">Calculate</button></p>
+    <p style="text-align: center;" id="average"></p>
+  </body>
+</html>
